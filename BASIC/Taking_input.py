@@ -1,0 +1,8 @@
+name=input("Enter your name:")
+print("What is your department name:")
+department=input()
+print("your department is :", department)
+print(type(name))
+age=(input("Enter your age:"))
+print("your age is:", age)
+print(type(age))
