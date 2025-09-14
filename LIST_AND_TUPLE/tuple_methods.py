@@ -1,0 +1,6 @@
+Engineering=("Mechanical", "civil", "Architecture", "Biomedical")
+print(Engineering[2])
+print(Engineering.index("civil")) # index()
+numbers=(23, 65, 75 ,45, 34,65, 75)
+print(numbers.index(75))
+print(numbers.count(65))
