@@ -1,0 +1,15 @@
+empty_set=set()#sets are mutable but it's elements are not
+empty_set.add(4)
+print(empty_set)
+empty_set.remove(4)
+print(empty_set)
+empty_set.add((4,5,3,8))
+print(empty_set)
+empty_set.clear()
+print(empty_set)
+empty_set.add(3)
+#empty_set.pop(4)
+print(empty_set)
+data={"bikash","mahendra","arjun"}
+print(type(data))
+print(data.pop())
