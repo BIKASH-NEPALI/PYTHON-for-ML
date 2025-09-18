@@ -1,0 +1,7 @@
+f=open("C:\BIKASH NEPALI\PYTHON-for-ML\FILE_IN_OUTPUT\demo.txt","r")
+data=f.read(5)
+line2=f.readline()
+print(line2)
+print(data)
+print(type(data))
+f.close()
