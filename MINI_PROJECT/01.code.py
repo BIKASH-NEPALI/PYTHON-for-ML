@@ -1,4 +1,4 @@
-# RANDOM PASSWORD GENERATOR
+# TAKE NEW GENERATOR
 #import random module
 import random
 subject=["john cena","virat kohli","cristano Ronaldo","shah Rukh kan ","Micheal Jackson"]
