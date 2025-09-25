@@ -1,0 +1,10 @@
+print("WELCOME TO ROOM RENT CALCULATOR")
+rent=int(input("Eneter the room rent of this month\n"))
+elec_unit=int(input("enter the electricity unit of month\n"))
+cost_per_unit=int(input("Enter the electricity "))
+other_expense=int(input("Enter other expense of this month\n"))
+electricity_bill=(cost_per_unit*elec_unit)
+person=int(input("Enter the number of person living in room\n"))
+room_rent_per_person=(rent+electricity_bill+other_expense)/person
+print("The expense of all people living in the room:\n")
+print(room_rent_per_person)
